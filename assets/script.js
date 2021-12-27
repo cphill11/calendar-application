@@ -1,9 +1,7 @@
 // get the id established for current date and time
 var currentDate = document.getElementById("currentDate");
-
 // moment.js used; currentDate displays current date and time at top of scheduler
 currentDate.textContent = moment().format('MMMM Do YYYY, h:mm:ss a');
-
 // schedule row color functionality
 function colorChange() {
     var hour = moment().hour();
@@ -36,11 +34,9 @@ colorChange();
 $(".saveBtn").on("click", function() {
     var saveKey = $(this).parent().attr("id");
     var saveValue = $(this).siblings(".description").val();
-
     // saves items to storage
     localStorage.setItem(saveKey, saveValue);
 });
-
 // pull row info from localStorage and displays it in the description
 $("#row-9 .description").val(localStorage.getItem("row-9"));
 $("#row-10 .description").val(localStorage.getItem("row-10"));

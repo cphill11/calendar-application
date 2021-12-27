@@ -22,18 +22,18 @@
       <p id="currentDate" class="lead"></p>
     </header>
     <div class="container">
-      <!-- Timeblocks go here -->
-      <!-- When I click into a time block, then I can enter an event, using textarea-->
+      <!-- Sections create interactive timeblocks, using textareas within each individual row -->
 
       <section>
         <div class="container">
-          <!-- Sets the colums, their time, id, description, and save button -->
+          <!-- Sets the columns, their time, id, description, and save button -->
           <div class="row time-block" id="row-9">
             <div class="col-sm-1 hour">
               9am
             </div>
             <textarea class="col-sm-10 description"></textarea>
             <button class="col-sm-1 saveBtn">
+              <!-- creates save icon using 'font awesome'-->
               <i class="fas fa-save"></i>
             </button>
           </div>
@@ -87,9 +87,6 @@
               <i class="fas fa-save"></i>
             </button>
           </div>
-
-
-
           <div class="row time-block" id="row-15">
             <div class="col-sm-1 hour">
               3pm
@@ -109,7 +106,6 @@
               <i class="fas fa-save"></i>
             </button>
           </div>
-
           <div class="row time-block" id="row-17">
             <div class="col-sm-1 hour">
               5pm
@@ -119,11 +115,10 @@
               <i class="fas fa-save"></i>
             </button>
           </div>
-
         </div>
       </section>
     </div>
-
+    <!-- javascript and jquery links go at end to allow the browser to parse this information more quickly and execute these fields quickly -->
     <script src="https://code.jquery.com/jquery-3.4.1.min.js"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/moment.js/2.24.0/moment.min.js"></script>
     <script src="assets/script.js"></script>

@@ -3,6 +3,8 @@
 ## Purpose
 This is an interactive calendar application that allows a user to save events for each hour of the day. This application runs in a browser and features dynamically updated HTML and CSS powered by jQuery.
 
+When planner is opened, current day and time is displayed at the top for user convenience.  Time blocks are set up for standard business hours and each time block is color-coded to indicate whether the time is in the past, present, or future.  Past is greyed out and no events are able to be scheduled during these times.  Current timeslots are bars of red and future timeslots are bars of green.  Entering on a non-greyed out timeslot allows the user to enter text for the event they are attempting to schedule.  Events are saved to localStorage and saved events are viewable when a page is refreshed.
+
 
 ## Built With
 * HTML
@@ -11,27 +13,8 @@ This is an interactive calendar application that allows a user to save events fo
 * Bootstrap
 
 ## Website
+https://cphill11.github.io/calendar-application/
 
 
 ## Image
-
-# Goals
-
-WHEN I open the planner
-THEN the current day is displayed at the top of the calendar
-
-WHEN I scroll down
-THEN I am presented with time blocks for standard business hours
-
-WHEN I view the time blocks for that day
-THEN each time block is color-coded to indicate whether it is in the past, present, or future
-
-WHEN I click into a time block
-THEN I can enter an event
-
-WHEN I click the save button for that time block
-THEN the text for that event is saved in local storage
-
-WHEN I refresh the page
-THEN the saved events persist
-
+![Screenshot](/assets/images/screenshot.png)

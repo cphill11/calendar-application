@@ -13,7 +13,7 @@ When planner is opened, current day and time is displayed at the top for user co
 * Bootstrap
 
 ## Website
-https://cphill11.github.io/calendar-application/
+https://github.com/cphill11/calendar-application.git
 
 
 ## Image

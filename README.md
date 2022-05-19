@@ -15,6 +15,8 @@ When planner is opened, current day and time is displayed at the top for user co
 ## Website
 https://github.com/cphill11/calendar-application.git
 
+https://cphill11.github.io/calendar-application/
+
 
 ## Image
 ![Screenshot](/assets/images/screenshot.png)
